@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <Container>
       <HeaderFooterBox>
-        <Logo name={"nickgric"} color={"secondary"} copyright />
+        <Logo color={"secondary"} copyright />
         <Contacts
           mail={"mailto:nickgric@gmail.com"}
           phone={"tel:+12499894999"}

@@ -47,8 +47,20 @@ export const MoviePocket = () => {
         backgroundImage={"https://i.ibb.co/Vw18PNk/movie.jpg"}
         backgroundPosition={"center"}
         backgroundSize={"cover"}
-        h={{ base: "300px", tab: "600px", tabMax: "400px", desk: "500px" }}
-        w={{ base: "300px", tab: "600px", tabMax: "400px", desk: "500px" }}
+        h={{
+          base: "250px",
+          mobMax: "300px",
+          tab: "600px",
+          tabMax: "400px",
+          desk: "500px",
+        }}
+        w={{
+          base: "250px",
+          mobMax: "300px",
+          tab: "600px",
+          tabMax: "400px",
+          desk: "500px",
+        }}
       />
     </Link>
   );
@@ -62,8 +74,20 @@ export const Wallet = () => {
         backgroundImage={"https://i.ibb.co/TbMqnJn/wallet.jpg"}
         backgroundPosition={"center"}
         backgroundSize={"cover"}
-        h={{ base: "300px", tab: "600px", tabMax: "400px", desk: "500px" }}
-        w={{ base: "300px", tab: "600px", tabMax: "400px", desk: "500px" }}
+        h={{
+          base: "250px",
+          mobMax: "300px",
+          tab: "600px",
+          tabMax: "400px",
+          desk: "500px",
+        }}
+        w={{
+          base: "250px",
+          mobMax: "300px",
+          tab: "600px",
+          tabMax: "400px",
+          desk: "500px",
+        }}
       />
     </Link>
   );
@@ -77,8 +101,20 @@ export const PhoneBook = () => {
         backgroundImage={"https://i.ibb.co/BV6fv0c/Phone-Book.jpg"}
         backgroundPosition={"center"}
         backgroundSize={"cover"}
-        h={{ base: "300px", tab: "600px", tabMax: "400px", desk: "500px" }}
-        w={{ base: "300px", tab: "600px", tabMax: "400px", desk: "500px" }}
+        h={{
+          base: "250px",
+          mobMax: "300px",
+          tab: "600px",
+          tabMax: "400px",
+          desk: "500px",
+        }}
+        w={{
+          base: "250px",
+          mobMax: "300px",
+          tab: "600px",
+          tabMax: "400px",
+          desk: "500px",
+        }}
       />
     </Link>
   );
@@ -92,8 +128,20 @@ export const WebStudio = () => {
         backgroundImage={"https://i.ibb.co/YyKjzb4/Web-Studio.jpg"}
         backgroundPosition={"center"}
         backgroundSize={"cover"}
-        h={{ base: "300px", tab: "600px", tabMax: "400px", desk: "500px" }}
-        w={{ base: "300px", tab: "600px", tabMax: "400px", desk: "500px" }}
+        h={{
+          base: "250px",
+          mobMax: "300px",
+          tab: "600px",
+          tabMax: "400px",
+          desk: "500px",
+        }}
+        w={{
+          base: "250px",
+          mobMax: "300px",
+          tab: "600px",
+          tabMax: "400px",
+          desk: "500px",
+        }}
       />
     </Link>
   );
@@ -116,14 +164,20 @@ export const ProjectAbout = ({
         alignItems={"center"}
         backgroundColor={invertColor}
         h={"50px"}
-        w={{ base: "300px", tab: "600px", tabMax: "400px", desk: "500px" }}
+        w={{
+          base: "250px",
+          mobMax: "300px",
+          tab: "600px",
+          tabMax: "400px",
+          desk: "500px",
+        }}
         py={"45px"}
         mb={"15px"}
       >
         <Text
           as={"h3"}
           fontFamily={primaryFont}
-          fontSize={"48px"}
+          fontSize={"38px"}
           lineHeight={"1.3"}
           fontWeight={"700"}
           color={primaryColor}
@@ -135,7 +189,13 @@ export const ProjectAbout = ({
         as={"div"}
         alignItems={"flex-start"}
         flexDirection={"column"}
-        w={{ base: "300px", tab: "600px", tabMax: "400px", desk: "500px" }}
+        w={{
+          base: "250px",
+          mobMax: "300px",
+          tab: "600px",
+          tabMax: "400px",
+          desk: "500px",
+        }}
         py={"10px"}
       >
         <Text
@@ -147,7 +207,7 @@ export const ProjectAbout = ({
           fontWeight={"700"}
           color={invertColor}
         >
-          <Flex as={"div"} alignItems={"center"} gap={"5px"}>
+          <Flex as={"div"} alignItems={"center"} gap={"5px"} flexWrap={"wrap"}>
             <b>Technologies:</b> {children}
           </Flex>
         </Text>
@@ -156,7 +216,13 @@ export const ProjectAbout = ({
         as={"div"}
         alignItems={"flex-start"}
         flexDirection={"column"}
-        w={{ base: "300px", tab: "600px", tabMax: "400px", desk: "500px" }}
+        w={{
+          base: "250px",
+          mobMax: "300px",
+          tab: "600px",
+          tabMax: "400px",
+          desk: "500px",
+        }}
         py={"10px"}
       >
         <Text

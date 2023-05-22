@@ -3,7 +3,12 @@ import { primaryFont } from "../../styles/variables";
 
 export const AboutBox = ({ children }) => {
   return (
-    <Flex gap={"20px"} flexDirection={{ base: "column", tabMax: "row" }}>
+    <Flex
+      gap={"20px"}
+      flexDirection={{ base: "column", tabMax: "row" }}
+      justifyContent={"center"}
+      alignItems={{ base: "center", tab: "flex-start" }}
+    >
       {children}
     </Flex>
   );
@@ -39,14 +44,14 @@ export const Me = () => {
         backgroundPosition={"center"}
         backgroundSize={"cover"}
         h={{
-          base: "100%",
+          base: "290px",
           mobMax: "420px",
           tab: "618px",
           tabMax: "400px",
           desk: "500px",
         }}
         w={{
-          base: "100%",
+          base: "290px",
           mobMax: "420px",
           tab: "618px",
           tabMax: "400px",
