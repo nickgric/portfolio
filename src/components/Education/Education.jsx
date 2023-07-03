@@ -13,9 +13,9 @@ export const Education = () => {
       <EducationItem
         year={"2022-2023"}
         name={"GoIT Academy (Ukraine, Kyiv)"}
-        position={"Frontend Developer"}
+        position={"Fullstack Developer"}
         review={
-          "Completed intensive Frontend Developer program at GoIT Academy, focusing on mastering JavaScript and React. Acquired strong coding skills and learned best practices for modern web development. Developed proficiency in building dynamic, user-friendly websites and applications, utilizing React to create efficient, reusable components. Successfully completed multiple projects to demonstrate and hone my skills."
+          "Completed intensive Fullstack Developer program at GoIT Academy, focusing on mastering JavaScript and React. Acquired strong coding skills and learned best practices for modern web development. Developed proficiency in building dynamic, user-friendly websites and applications, utilizing React to create efficient, reusable components. Successfully completed multiple projects to demonstrate and hone my skills."
         }
       >
         <FrontendDeveloperIcon />

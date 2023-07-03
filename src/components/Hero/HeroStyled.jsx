@@ -1,6 +1,8 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+import Slider from "react-slick";
+
 import { Box, Flex, Link, Text, Icon } from "@chakra-ui/react";
 
 import { primaryColor, invertColor, primaryFont } from "../../styles/variables";
@@ -14,11 +16,7 @@ export const HeroBox = ({ children }) => {
 };
 
 export const CarouselBox = ({ children }) => {
-  return (
-    <Carousel infiniteLoop showStatus={false} showThumbs={false}>
-      {children}
-    </Carousel>
-  );
+  return <Slider>{children}</Slider>;
 };
 
 export const CarouselItem = ({ children }) => {
@@ -30,7 +28,7 @@ export const CarouselItem = ({ children }) => {
       alignItems={{ base: "center", tabMax: "start" }}
       w={"100%"}
       py={"50px"}
-      px={"55px"}
+      px={"60px"}
       gap={{ base: "0px", tabMax: "30px" }}
     >
       {children}

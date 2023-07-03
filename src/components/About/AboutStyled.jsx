@@ -40,7 +40,7 @@ export const Me = () => {
     <Link href={"https://github.com/nickgric"}>
       <Box
         as={"div"}
-        backgroundImage={"https://i.ibb.co/q1Vxf9v/me.jpg"}
+        backgroundImage={"https://i.ibb.co/HD1PKZY/collision-avatar.jpg"}
         backgroundPosition={"center"}
         backgroundSize={"cover"}
         h={{
